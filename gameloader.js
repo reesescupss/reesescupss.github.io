@@ -455,6 +455,11 @@ var gamesText = `{
             "path":"gfiles/piclient/"
         },
         {
+            "name":"Pizza Tower",
+            "img":"img/pizzatower.jpg",
+            "path":"gfiles/pizzatower/"
+        },
+        {
             "name":"POOM",
             "img":"img/poom.jpg",
             "path":"gfiles/poom/"

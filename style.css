@@ -40,7 +40,7 @@
 
 #btn-setting button {
   background-color: #222222;
-  border: 0.15vw solid white
+  border: 0.15vw solid white;
 }
 
 #btn-setting {
@@ -67,9 +67,17 @@
 body {
   margin: 0;
   padding: 0;
-  background: #141E30;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 a.icon {
@@ -93,19 +101,18 @@ header {
   background-color: #0c1320;
 }
 
-header a:hover{
+header a:hover {
   color: rgb(73, 122, 245);
   transform: scale(1.05);
-  transition: .2s;
+  transition: 0.2s;
 }
 
-.linkmenu{
+.linkmenu {
   text-decoration: none;
 }
 
-.icon{
+.icon {
   border-radius: 40%;
-  
 }
 
 header a {
@@ -138,9 +145,17 @@ p {
 }
 
 .game-button {
-  background: #141E30;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1b2c40, #0b111d);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1b2c40, #0b111d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1b2c40,
+    #0b111d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1b2c40,
+    #0b111d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -179,7 +194,6 @@ p {
 .hiddenUpload {
   margin: auto;
   text-align: center;
-
 }
 
 .uploadResult {
@@ -197,4 +211,19 @@ p {
   border-radius: 10px;
   height: 20px;
   color: black;
+}
+
+iframe#gameWin {
+  width: 80vw;
+  height: 45vw;
+}
+
+button#fullscreenGameButton {
+  cursor: pointer;
+  background-color: black;
+  border: solid 1vw black;
+  width: 10vw;
+  height: 5vw;
+  font-size: 1vw;
+  text-align: center;
 }
